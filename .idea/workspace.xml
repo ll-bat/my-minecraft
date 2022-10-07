@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db68a59-ded2-4c0b-9c0b-6583a7d04ccb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Ground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useKeyboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/textures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-minecraft-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cube.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cubes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FPV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextureSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cursor-hand-original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cursor-hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/glass.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useKeyboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useKeyboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/textures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/textures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +39,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FnyCJj70WumeTm4BYjB0Ikt1tw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Project.color": "132818",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/snap/phpstorm/295/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
@@ -58,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665142013464</updated>
-      <workItem from="1665142014629" duration="6197000" />
+      <workItem from="1665142014629" duration="6332000" />
+      <workItem from="1665149874941" duration="7040000" />
     </task>
     <servers />
   </component>
@@ -76,12 +95,14 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/images/textures.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

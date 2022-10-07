@@ -10,8 +10,8 @@ function actionByKey(key) {
         Digit1: 'dirt',
         Digit2: 'grass',
         Digit3: 'glass',
-        Digit4: 'wood',
-        Digit5: 'log',
+        Digit4: 'log',
+        Digit5: 'wood',
     }
     return keyActionMap[key];
 }
@@ -23,11 +23,11 @@ export const useKeyboard = () => {
         moveLeft: false,
         moveRight: false,
         jump: false,
-        texture1: false,
-        texture2: false,
-        texture3: false,
-        texture4: false,
-        texture5: false,
+        dirt: false,
+        grass: false,
+        glass: false,
+        wood: false,
+        log: false,
     });
 
     const handleKeyDown = useCallback((e) => {
