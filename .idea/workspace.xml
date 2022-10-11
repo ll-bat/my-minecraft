@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db68a59-ded2-4c0b-9c0b-6583a7d04ccb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-minecraft-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cubes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FPV.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextureSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cursor-hand-original.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cursor-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useKeyboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useKeyboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/textures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/textures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Project.color": "132818",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/snap/phpstorm/295/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Project.color&quot;: &quot;132818&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/295/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -77,7 +61,11 @@
       <option name="presentableId" value="Default" />
       <updated>1665142013464</updated>
       <workItem from="1665142014629" duration="6332000" />
-      <workItem from="1665149874941" duration="7040000" />
+      <workItem from="1665149874941" duration="7090000" />
+      <workItem from="1665416909137" duration="2589000" />
+      <workItem from="1665427377238" duration="3695000" />
+      <workItem from="1665485002923" duration="4113000" />
+      <workItem from="1665489291951" duration="6011000" />
     </task>
     <servers />
   </component>
