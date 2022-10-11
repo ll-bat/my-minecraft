@@ -14,7 +14,7 @@ function nextPos(i) {
     return i;
 }
 
-function createPos(i) {
+function createPos(i, _3d = false) {
     // let currentCounter = counter;
     // counter++;
 
@@ -23,7 +23,9 @@ function createPos(i) {
     return [
         i * (Math.cos(i)),
         i * (Math.sin(i)) + 50,
-        -150
+        _3d
+            ? -i * (Math.sin(i * Math.PI / 100)) - 400
+            : -150
     ]
 }
 
@@ -60,49 +62,66 @@ export const useStore = create((set, get) => ({
             //         )
             //     }, 200)
             // }
-            const addCube = () => {
-                if (i === CUBES_LEN) {
-                    return true;
-                }
-                const pos = createPos(i++)
-                get().addCube(...pos, i)
-                return false;
-            }
-            const createCubeInterval = setInterval(() => {
-                const finish = addCube()
-                if (finish) {
-                    clearInterval(createCubeInterval)
-                    startMoving()
-                }
-            }, 0)
-
-            const startMoving = () => {
-                const movingInterval = setInterval(() => {
-                    const cubes = get().cubes
-                    if (cubes.length < 2 * CUBES_LEN) {
-                        for (let ind = 0; ind < cubes.length; ind++) {
-                            const cube = cubes[ind]
-                            const newCube = createCube(cube.index + 1)
-                            get().updateCube(ind, newCube)
-                        }
-                        get().addCube(...createPos(0), 0)
-                    } else {
-                        clearInterval(movingInterval)
-                        removeCubes()
+            if (false) {
+                const addCube = () => {
+                    if (i === CUBES_LEN) {
+                        return true;
                     }
-                }, 10)
-
-                const removeCubes = () => {
-                    const cubes = get().cubes
-                    let ind = 0;
-                    const removeCubesInterval = setInterval(() => {
-                        get().removeCube(...cubes[ind++].pos)
-                        if (ind === 2 * CUBES_LEN) {
-                            clearInterval(removeCubesInterval)
+                    const pos = createPos(i++)
+                    get().addCube(...pos, i)
+                    return false;
+                }
+                const createCubeInterval = setInterval(() => {
+                    const finish = addCube()
+                    if (finish) {
+                        clearInterval(createCubeInterval)
+                        startMoving()
+                    }
+                }, 0)
+                const startMoving = () => {
+                    const movingInterval = setInterval(() => {
+                        const cubes = get().cubes
+                        if (cubes.length < 2 * CUBES_LEN) {
+                            for (let ind = 0; ind < cubes.length; ind++) {
+                                const cube = cubes[ind]
+                                const newCube = createCube(cube.index + 1)
+                                get().updateCube(ind, newCube)
+                            }
+                            get().addCube(...createPos(0), 0)
+                        } else {
+                            clearInterval(movingInterval)
+                            removeCubes()
                         }
-                    }, 100)
+                    }, 10)
+
+                    const removeCubes = () => {
+                        const cubes = get().cubes
+                        let ind = 0;
+                        const removeCubesInterval = setInterval(() => {
+                            get().removeCube(...cubes[ind++].pos)
+                            if (ind === 2 * CUBES_LEN) {
+                                clearInterval(removeCubesInterval)
+                                createStaticCubes()
+                            }
+                        }, 10)
+                    }
                 }
             }
+
+            const createStaticCubes = () => {
+                const addCube = get().addCube
+                for (let i = 0; i < 10 * CUBES_LEN; i++) {
+                    setTimeout(() => {
+                        addCube(...createPos(i, true), i)
+                    }, i)
+                }
+            }
+
+            if (true) {
+                createStaticCubes()
+            }
+
+
         })
 
         return cubes
